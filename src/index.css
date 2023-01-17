@@ -1,0 +1,38 @@
+main {
+  display: grid;
+  min-width: 500px;
+  width: fit-content;
+  padding: 20px 30px;
+  background: #e0efff;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px 20px;
+  background: lightgreen;
+  border: 1px solid green;
+  color: black;
+  font-size: 18px;
+}
+
+p + p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: helvetica, arial, sans-serif;
+}
+form {
+  display: grid;
+}
+
+.formField {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
